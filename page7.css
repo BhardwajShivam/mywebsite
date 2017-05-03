@@ -1,0 +1,181 @@
+/* this is for earth*/
+#main{
+  width:100%;
+  height:1200px;
+  background-color: white;
+  margin: 0px;
+}
+
+#header{
+  height: 160px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -5px;
+  background-color: black;
+  box-shadow: 0px 2px 3px darkgray;
+}
+
+#h1{
+  color:white;
+  font-size: 35px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 666px;
+  font-family:cursive ;
+}
+#logo{
+  width:100px;
+  height:160px;
+  float: left;
+
+}
+
+#logo>img{
+  width:300px;
+  height: 140px;
+}
+
+  #navbar{
+    width: 1000px;
+      height:40px;
+      float: right;
+     margin-top: 22px;
+     }
+  #navbar>li{
+      width: 160px;
+      list-style: none;
+      float: left;
+      position: relative;
+      background-color: black;
+
+    }
+  li>a{
+    display:block;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px;
+    text-decoration: none;
+    text-shadow: 0px 6px 8px gray;
+
+  }
+  li>a:hover,
+  li>a:focus{
+    background-color: #b22222;
+    font-size: 23px;
+}
+
+  .sublist{
+    display:none;
+    width: 160px;
+    height: 40px;
+    list-style: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    opacity: .8;
+  }
+  .sublist>li>a{
+    display:block;
+    color: white;
+    background-color: #ffdead;
+    color:black;
+    text-shadow: 0px 3px 2px gray;
+    box-shadow: 0px 2px 3px;
+    width:250px;
+  }
+  .sublist>li>a:hover,
+  .sublist>li>a:focus{
+    background-color: #b22222;
+    box-shadow: 0px 8px 10px black;
+
+  }
+    #navbar>li:hover .sublist{
+      display: block;
+     }
+
+  #body{
+    width: 1100 ;
+    height:1000px;
+    margin: 0px auto 0px auto;
+  }
+    #footer{
+      clear: both;
+      margin:0px;
+      margin-bottom: 0px;
+      margin-right: -8px;
+      margin-left: -8px;
+      height: 250px;
+      background-color: black;
+    }
+    #footer2{
+      width: 1100px;
+      height: 250px;
+      margin: 0px auto 0px auto;
+    }
+    #subfooter1{
+      margin-left: 15px;
+      width: 340px;
+      height: 160px;
+      float: left;
+
+    }
+
+    .table1{
+      color:white;
+      margin-left: 20px;
+    }
+    .heading{
+      font-size: 22px;
+      margin-left: 40px;
+      float: left;
+      font-family: monospace;
+    }
+    .td>a{
+      margin: 50px;
+      line-height: 30px;
+      text-decoration: none;
+      font-family: monospace;
+      font-size: 18px;
+      color: white;
+    }
+    #subfooter2{
+      margin-left: 20px;
+      width: 340px;
+      height: 160px;
+      float: left;
+    }
+    #subfooter3{
+      margin-left: 20px;
+      float: left;
+      width: 340px;
+      height: 160px;
+    }
+    .im1{
+      width: 40px;
+      height: 30px;
+      margin-top: 2px;
+      margin-left: 400px;
+      padding: 0px;
+    }
+    .im2{
+      width: 30px;
+      height: 30px;
+      margin-top: 2px;
+      margin-left: 5px;
+      padding: 0px;
+    }
+    .im3{
+      width: 30px;
+      height: 30px;
+      margin-left: 5px;
+      padding: 0px;
+    }
+    #mohit{
+      color: white;
+      margin-left: 300px;
+    }

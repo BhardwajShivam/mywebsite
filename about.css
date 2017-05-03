@@ -1,0 +1,420 @@
+/* this is for earth*/
+#main{
+  width:100%;
+  height:1000px;
+  background-color: white;
+  margin: 0px;
+}
+
+#header{
+  height: 160px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -5px;
+  background-color: black;
+  box-shadow: 0px 2px 3px darkgray;
+}
+
+#h1{
+  color:white;
+  font-size: 35px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 666px;
+  font-family:cursive ;
+}
+#logo{
+  width:100px;
+  height:160px;
+  float: left;
+
+}
+
+#logo>img{
+  width:300px;
+  height: 140px;
+}
+
+  #navbar{
+    width: 1000px;
+      height:40px;
+      float: right;
+     margin-top: 22px;
+     }
+  #navbar>li{
+      width: 160px;
+      list-style: none;
+      float: left;
+      position: relative;
+      background-color: black;
+
+    }
+  li>a{
+    display:block;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px;
+    text-decoration: none;
+    text-shadow: 0px 6px 8px gray;
+
+  }
+  li>a:hover,
+  li>a:focus{
+    background-color: #b22222;
+    font-size: 23px;
+}
+
+  .sublist{
+    display:none;
+    width: 160px;
+    height: 40px;
+    list-style: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    opacity: .8;
+  }
+  .sublist>li>a{
+    display:block;
+    color: white;
+    background-color: #ffdead;
+    color:black;
+    text-shadow: 0px 3px 2px gray;
+    box-shadow: 0px 2px 3px;
+    width:250px;
+  }
+  .sublist>li>a:hover,
+  .sublist>li>a:focus{
+    background-color: #b22222;
+    box-shadow: 0px 8px 10px black;
+
+  }
+    #navbar>li:hover .sublist{
+      display: block;
+     }
+
+  #body{
+    width: 1100 ;
+    height:1400px;
+    margin: 0px auto 0px auto;
+  }
+
+  #about{
+    width: 670px;
+    height: 1390px;
+    float: left;
+  }
+
+  .head{
+    font-size: 45px;
+    color: #0000a0;
+    font-kerning: normal;
+    font-weight: bolder;
+    font-family:serif;
+  }
+  .head:hover{
+    color:red;
+    
+  }
+  .dt{
+    font-size: 23px;
+    line-height: 40px;
+    color:#4aa02c;
+    font-weight: bolder;
+  }
+
+  .dt:hover{
+    color:#c12283;
+  }
+  .subdt{
+    font-size: 20px;
+    color: #ff00ff;
+    line-height: 30px;
+    margin-left: 10px;
+    font-weight: bolder;
+  }
+  .subdt:hover{
+    color:#4863a0;
+  }
+  .content{
+    color:#7e3517;
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .content:hover{
+    color: #3b9c9c;
+  }
+  .list{
+    color:#842dce;
+    font-size: 20px;
+    list-style-type: circle;
+    line-height: 30px;
+    font-weight: bolder;
+    border: 2px solid black;
+    margin-right: 400px;
+  }
+  .list:hover{
+    color:#15317e;
+  }
+
+
+  #table1{
+    width: 400px;
+    height:1300px;
+    float: right;
+  }
+
+  #table{
+    width:400px;
+    height: 400px;
+    float: right;
+    margin-top: 70px;
+    margin-left: 0px;
+    box-shadow: 0px 3px 6px;
+    text-align: center;
+    }
+
+  .style1{
+    font-size: 20px;
+    color:#32cd32;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 15px;
+   }
+   .style1:hover{
+     color: yellow;
+   }
+
+    .style2{
+      font-size: 55px;
+      color:red;
+      font-weight: bold;
+      font-family:monospace;
+      text-decoration: none;
+      }
+      .style2:hover{
+        color:#0000a0;
+      }
+
+    .style3{
+        font-size: 16px;
+        color:blue;
+        font-family: sans-serif;
+        }
+        .style3:hover{
+          color: #25383c;
+        }
+        #button{
+          margin-left: 20px;
+          margin-bottom: -30px;
+          color: white;
+          width: 145px;
+          height: 50px;
+          font-size: 20px;
+          box-shadow: 0px 2px 4px black;
+          box-decoration-break: 0px 2px 3px;
+          box-sizing:border-box;
+          border: none;
+          cursor: pointer;
+          border-radius: 20px;
+          background-color:#4e9258;
+        }
+        #button:hover,
+        #button:focus{
+          background-color: #0c090a;
+          border: none;
+        }
+        #follow{
+          float:left;
+          margin-left: 50px;
+          width: 288;
+          height:600;
+          margin-top: 60px;
+        }
+        #follow1{
+          width: 288;
+          height: 150px;
+          box-shadow: 0px 2px 5px;
+
+        }
+        #twiter{
+          width: 50px;
+          height: 50px;
+        }
+        #subf1{
+          width: 288;
+          height: 75px;
+          background-color: black;
+        }
+        #subf2{
+          width: 288;
+          height: 75px;
+          background-color: #e5e4e2;
+
+        }
+        #subp{
+          font-size: 20px;
+          font-family: cursive;
+          color: white;
+          float: right;
+          margin-right: 40px;
+          text-align: center;
+          margin-top: 20px;
+        }
+        .input{
+          background-color: #347c2c;
+          margin: 20px;
+          border:none;
+          font-size: 20px;
+          font-family: cursive;
+          box-shadow: 0px 2px 3px black;
+          border-radius: 5px;
+          color: white;
+          width: 150px;
+        }
+        .input:hover,
+        .input:focus{
+          background-color: #0c090a;
+          border: none;
+        }
+
+        #follow2{
+          width: 288;
+          height:300px;
+          margin-top: 50px;
+          box-shadow: 0px 4px 5px black;
+        }
+        #subface1{
+          width:288;
+          height: 50px;
+          border: 2px solid black;
+          background-color: black;
+        }
+
+        #subface2{
+          width: 288;
+          height: 250px;
+          background-color: #e5e4e2;
+        }
+        #faceimg{
+          width: 50px;
+          height: 50px;
+        }
+        #facebook{
+          font-size: 20px;
+          color: white;
+          text-align: center;
+          margin-top: 10px;
+          float: right;
+          margin-right:50px;
+          font-family: cursive;
+
+        }
+        #facebook2{
+          margin: 16px;
+          width: 250px;
+          height: 200px;
+          border: 4px solid white;
+          box-shadow: 0px 2px 3px black;
+         }
+         .input2{
+           margin-top: -50px;
+           margin-left: 40px;
+           border: 1px solid white;
+           background-image: url(face2.png);
+           background-repeat: no-repeat;
+           background-size: 20px;
+           box-shadow: 0px 2px 4px black;
+           border-radius: 4px;
+           width: 130px;
+           font-size: 16px;
+         }
+         .input2:hover,
+         .input2:focus{
+           background-color: #b6b6b4;
+           border: 2px solid #b6b6b4;
+         }
+
+
+
+    #footer{
+      clear: both;
+      margin:0px;
+      margin-bottom: 0px;
+      margin-right: -8px;
+      margin-left: -8px;
+      height: 250px;
+      background-color: black;
+    }
+    #footer2{
+      width: 1100px;
+      height: 250px;
+      margin: 0px auto 0px auto;
+    }
+    #subfooter1{
+      margin-left: 15px;
+      width: 340px;
+      height: 160px;
+      float: left;
+
+    }
+
+    .table1{
+      color:white;
+      margin-left: 20px;
+    }
+    .heading{
+      font-size: 22px;
+      margin-left: 40px;
+      float: left;
+      font-family: monospace;
+    }
+    .td>a{
+      margin: 50px;
+      line-height: 30px;
+      text-decoration: none;
+      font-family: monospace;
+      font-size: 18px;
+      color: white;
+    }
+    #subfooter2{
+      margin-left: 20px;
+      width: 340px;
+      height: 160px;
+      float: left;
+    }
+    #subfooter3{
+      margin-left: 20px;
+      float: left;
+      width: 340px;
+      height: 160px;
+    }
+    .im1{
+      width: 40px;
+      height: 30px;
+      margin-top: 2px;
+      margin-left: 400px;
+      padding: 0px;
+    }
+    .im2{
+      width: 30px;
+      height: 30px;
+      margin-top: 2px;
+      margin-left: 5px;
+      padding: 0px;
+    }
+    .im3{
+      width: 30px;
+      height: 30px;
+      margin-left: 5px;
+      padding: 0px;
+    }
+    #mohit{
+      color: white;
+      margin-left: 300px;
+    }
